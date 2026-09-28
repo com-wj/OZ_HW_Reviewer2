@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WJ\\Documents\\Visual Studio 2022\\Projects\\Reviewer_CSharp\\Reviewer_CSharp\\Reviewer_CSharp.csproj": {}
+    "D:\\Dev\\Github\\OZ_HW_Reviewer2\\Reviewer_CSharp\\Reviewer_CSharp\\Reviewer_CSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WJ\\Documents\\Visual Studio 2022\\Projects\\Reviewer_CSharp\\Reviewer_CSharp\\Reviewer_CSharp.csproj": {
+    "D:\\Dev\\Github\\OZ_HW_Reviewer2\\Reviewer_CSharp\\Reviewer_CSharp\\Reviewer_CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WJ\\Documents\\Visual Studio 2022\\Projects\\Reviewer_CSharp\\Reviewer_CSharp\\Reviewer_CSharp.csproj",
+        "projectUniqueName": "D:\\Dev\\Github\\OZ_HW_Reviewer2\\Reviewer_CSharp\\Reviewer_CSharp\\Reviewer_CSharp.csproj",
         "projectName": "Reviewer_CSharp",
-        "projectPath": "C:\\Users\\WJ\\Documents\\Visual Studio 2022\\Projects\\Reviewer_CSharp\\Reviewer_CSharp\\Reviewer_CSharp.csproj",
+        "projectPath": "D:\\Dev\\Github\\OZ_HW_Reviewer2\\Reviewer_CSharp\\Reviewer_CSharp\\Reviewer_CSharp.csproj",
         "packagesPath": "C:\\Users\\WJ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WJ\\Documents\\Visual Studio 2022\\Projects\\Reviewer_CSharp\\Reviewer_CSharp\\obj\\",
+        "outputPath": "D:\\Dev\\Github\\OZ_HW_Reviewer2\\Reviewer_CSharp\\Reviewer_CSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
