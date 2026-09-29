@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Reviewer_CSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d177d7743aa3e87ed2bd02c3085a9491c2eaebb5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dd4d8921f4404dd095a40a15873f37dcf161f22")]
 [assembly: System.Reflection.AssemblyProductAttribute("Reviewer_CSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Reviewer_CSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
