@@ -4,7 +4,7 @@ using namespace std;
 
 void PrintHWNumber(int num)
 {
-	cout << "------ °úÁ¦ " << num << " -----\n";
+	cout << "------ ê³¼ì œ " << num << " -----\n";
 }
 
 void LineJump()
