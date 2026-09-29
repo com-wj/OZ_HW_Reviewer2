@@ -127,7 +127,10 @@
     <ClCompile Include="GM-002.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="GM-003.cpp" />
+    <ClCompile Include="GM-003.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GM-004.cpp" />
     <ClCompile Include="wjUtility.cpp" />
   </ItemGroup>
   <ItemGroup>
