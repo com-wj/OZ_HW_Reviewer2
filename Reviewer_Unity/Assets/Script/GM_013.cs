@@ -11,7 +11,7 @@ public class GM_013 : MonoBehaviour
 
 	void Update()
 	{
-		// 2´Ü°è
+		// 2ë‹¨ê³„
 		if (Input.GetKeyDown(KeyCode.Space))
 		{
 			if (trainingCount >= 3)
@@ -19,26 +19,26 @@ public class GM_013 : MonoBehaviour
 
 			for (int i = 0; i < 10; i++)
 			{
-				Debug.Log($"Ä®À» ÈÖµÎ¸¨´Ï´Ù! ({i+1}È¸)");
+				Debug.Log($"ì¹¼ì„ íœ˜ë‘ë¦…ë‹ˆë‹¤! ({i+1}íšŒ)");
 			}
 			playerAtk += 5;
 			trainingCount++;
-			Debug.Log($"ÇöÀç °ø°Ý·Â : {playerAtk}");
+			Debug.Log($"í˜„ìž¬ ê³µê²©ë ¥ : {playerAtk}");
 		}
 
-		// 3´Ü°è
+		// 3ë‹¨ê³„
 		if (Input.GetKeyDown(KeyCode.H))
 		{
 			while (explorationProgress < 100)
 			{
-				Debug.Log($"Å½Çè ÁøÇàµµ : {explorationProgress}%");
+				Debug.Log($"íƒí—˜ ì§„í–‰ë„ : {explorationProgress}%");
 				explorationProgress += 20;
 				if (Random.Range(0f, 1f) <= 0.2f)
 				{
 					playerHP -= 10f;
 					if (playerHP <= 0)
 					{
-						Debug.Log("Å½Çè ½ÇÆÐ!");
+						Debug.Log("íƒí—˜ ì‹¤íŒ¨!");
 						return;
 					}
 				}
@@ -56,35 +56,35 @@ public class GM_013 : MonoBehaviour
 			float bossHP = 100f;
 			do
 			{
-				Debug.Log("ÇÃ·¹ÀÌ¾î°¡ °ø°ÝÇÕ´Ï´Ù!");
+				Debug.Log("í”Œë ˆì´ì–´ê°€ ê³µê²©í•©ë‹ˆë‹¤!");
 				if (isBossShield)
 				{
 					isBossShield = false;
-					Debug.Log($"°ø°ÝÀÌ ½¯µå¿¡ ¸·Çû½À´Ï´Ù.");
+					Debug.Log($"ê³µê²©ì´ ì‰´ë“œì— ë§‰í˜”ìŠµë‹ˆë‹¤.");
 				}
 				else
 				{
 					bossHP -= playerAtk;
-					Debug.Log($"º¸½º Ã¼·Â : {bossHP}");
+					Debug.Log($"ë³´ìŠ¤ ì²´ë ¥ : {bossHP}");
 				}
-				Debug.Log("º¸½º°¡ ¹Ý°ÝÇÕ´Ï´Ù!");
+				Debug.Log("ë³´ìŠ¤ê°€ ë°˜ê²©í•©ë‹ˆë‹¤!");
 				playerHP -= 20f;
-				Debug.Log($"ÇÃ·¹ÀÌ¾î Ã¼·Â : {playerHP}");
+				Debug.Log($"í”Œë ˆì´ì–´ ì²´ë ¥ : {playerHP}");
 			} while (bossHP > 0 && playerHP > 0);
 
 			if (bossHP <= 0)
 			{
-				Debug.Log($"º¸½º Ã³Ä¡ ¼º°ø");
+				Debug.Log($"ë³´ìŠ¤ ì²˜ì¹˜ ì„±ê³µ");
 				isBossDefeated = true;
 			}
 		}
 
 		if (Input.GetKeyDown(KeyCode.R))
 		{
-			Debug.Log($"[ÇöÀç »óÅÂ] HP : {playerHP} | ATK : {playerAtk} | GOLD : {gold}");
+			Debug.Log($"[í˜„ìž¬ ìƒíƒœ] HP : {playerHP} | ATK : {playerAtk} | GOLD : {gold}");
 			if (playerHP <= 20f)
 			{
-				Debug.LogWarning("ÈÞ½ÄÀÌ Àý½ÇÇÕ´Ï´Ù...");
+				Debug.LogWarning("íœ´ì‹ì´ ì ˆì‹¤í•©ë‹ˆë‹¤...");
 			}
 		}
 	}
