@@ -317,9 +317,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1220113389}
-  - component: {fileID: 1220113392}
   - component: {fileID: 1220113391}
   - component: {fileID: 1220113390}
+  - component: {fileID: 1220113392}
   m_Layer: 0
   m_Name: TaskGM
   m_TagString: Untagged
@@ -401,12 +401,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1220113387}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6cf1d9981dafe4419ac50ffa4e7e74c, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a2ef512415bbd9458a7b5b3074b5627, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerRenderer: {fileID: 1220113391}
-  _rotateSharpness: 360
-  _scaleSharpness: 0.001
+  _cube: {fileID: 1220113391}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
