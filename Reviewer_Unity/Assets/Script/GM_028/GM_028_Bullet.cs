@@ -8,7 +8,7 @@ public class GM_028_Bullet : MonoBehaviour
 	void Update()
 	{
 		_lifeTime -= Time.deltaTime;
-		transform.Translate(transform.forward * _moveSpeed * Time.deltaTime, Space.Self);
+		transform.Translate(transform.forward * _moveSpeed * Time.deltaTime, Space.World);
 
 		if (_lifeTime < 0)
 		{
